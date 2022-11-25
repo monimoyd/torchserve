@@ -33,4 +33,4 @@ grpc_management_port=707
 # Pytest Output
 
 
-[![pytest ouptut]()]
+[![pytest ouptut](pytest_output.png)]
