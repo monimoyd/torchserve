@@ -39,4 +39,4 @@ grpc_management_port=707
   # Captum Output
 
 
-![captum ouptut](captum_output.png)
+![captum ouptut](captum_image.png)
