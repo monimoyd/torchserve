@@ -40,3 +40,8 @@ grpc_management_port=707
 
 
 ![captum ouptut](captum_image.png)
+
+  # Metrics Output
+
+
+![metrics ouptut](metrics_output.png)
