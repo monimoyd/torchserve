@@ -33,4 +33,10 @@ grpc_management_port=707
 # Pytest Output
 
 
-[![pytest ouptut](pytest_output.png)]
+![pytest ouptut](pytest_output.png)
+
+  
+  # Captum Output
+
+
+![captum ouptut](captum_output.png)
