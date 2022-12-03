@@ -24,12 +24,16 @@ torchserve --model-store model_store --start --models all --ts-config config.pro
 config.properties has following content:
 
 inference_address=http://0.0.0.0:8080
+  
 management_address=http://0.0.0.0:8081
+  
 metrics_address=http://0.0.0.0:8082
+  
 grpc_inference_port=7070
+  
 grpc_management_port=7071
   
- ## Testing locally
+ ## Step4: Testing locally
   
   pytest test_serve
   
