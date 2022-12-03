@@ -29,6 +29,9 @@ metrics_address=http://0.0.0.0:8082
 grpc_inference_port=7070
 grpc_management_port=707
 
+## Step4: Testing locally
+  
+  pytest test_serve
 
 # Pytest Output
 
@@ -36,7 +39,7 @@ grpc_management_port=707
 ![pytest ouptut](pytest_output.png)
 
   
-  # Captum Output
+ # Captum Output
 
 
 ![captum ouptut](captum_image.png)
