@@ -15,7 +15,7 @@ Start torchserve server in EC2 instancew:
 
 Create a directory model_store and copy the cifar10.mar file 
 
-docker run -it --rm --net=host -v `pwd`:/opt/src pytorch/torchserve:latest bash
+docker run -it --rm --net=host -v \`pwd\`:/opt/src pytorch/torchserve:latest bash
 
 cd /opt/src
 
@@ -27,7 +27,13 @@ inference_address=http://0.0.0.0:8080
 management_address=http://0.0.0.0:8081
 metrics_address=http://0.0.0.0:8082
 grpc_inference_port=7070
-grpc_management_port=707
+grpc_management_port=7071
+  
+ ## Testing locally
+  
+  pytest test_serve
+  
+  
 
 
 # Pytest Output
