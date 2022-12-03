@@ -45,3 +45,9 @@ grpc_management_port=707
 
 
 ![metrics ouptut](metrics_output.png)
+
+
+# Tensorboard Profile
+
+
+![TensorBoard Profile](tensor_board_profile.png)
